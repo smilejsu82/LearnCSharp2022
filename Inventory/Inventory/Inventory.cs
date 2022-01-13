@@ -21,7 +21,11 @@ namespace Inventory
         }
 
         public Item GetItemByName(string name) {
-            return this.items.Find(x => x.Name.Equals(name));
+            Item foundItem = this.items.Find(x => x.Name.Equals(name));
+            if (foundItem != null) {
+                this.items.Remove(foundItem);
+            }
+            return foundItem;
         }
 
     }
