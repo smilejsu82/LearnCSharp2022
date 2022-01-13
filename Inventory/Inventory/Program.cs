@@ -15,6 +15,9 @@ namespace Inventory
 
             Inventory inven = new Inventory();
             inven.AddItem(item);
+
+            Item foundItem = inven.GetItemByName("장검");
+            Console.WriteLine(foundItem.ToString() + "을 찾았습니다.");
         }
     }
 }

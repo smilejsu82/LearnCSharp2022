@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace Inventory
 {
@@ -18,5 +19,10 @@ namespace Inventory
             this.items.Add(item);
             Console.WriteLine(item.ToString() + "이 추가 되었습니다.");
         }
+
+        public Item GetItemByName(string name) {
+            return this.items.Find(x => x.Name.Equals(name));
+        }
+
     }
 }
