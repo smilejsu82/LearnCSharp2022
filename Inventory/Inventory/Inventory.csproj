@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B77BDBCA-7FC7-44DE-BA49-C2A745CC4803}</ProjectGuid>
+    <ProjectGuid>{8E477AF6-4C51-4A0D-9A7B-9A0675BD083C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Study01</RootNamespace>
-    <AssemblyName>Study01</AssemblyName>
+    <RootNamespace>Inventory</RootNamespace>
+    <AssemblyName>Inventory</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

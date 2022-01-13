@@ -11,6 +11,11 @@ namespace Study01
         //생성자 
         public App() {
             Console.WriteLine("App");
+
+            //리스트 학습 하기 
+            List<string> list = new List<string>();
+            list.Add("홍길동");
+
         }
     }
 }
