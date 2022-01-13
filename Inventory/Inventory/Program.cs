@@ -10,6 +10,8 @@ namespace Inventory
     {
         static void Main(string[] args)
         {
+            Item item = new Item(100, "장검");
+            Console.WriteLine(item.ToString());
         }
     }
 }
