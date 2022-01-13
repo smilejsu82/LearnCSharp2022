@@ -12,6 +12,9 @@ namespace Inventory
         {
             Item item = new Item(100, "장검");
             Console.WriteLine(item.ToString());
+
+            Inventory inven = new Inventory();
+            inven.AddItem(item);
         }
     }
 }
