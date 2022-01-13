@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Study01
 {
-    class Program
+    class App
     {
-        static void Main(string[] args)
-        {
-            new App();
+        //생성자 
+        public App() {
+            Console.WriteLine("App");
         }
     }
 }
